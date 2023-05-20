@@ -1,9 +1,4 @@
 package com.driver;
-import lombok.Getter;
-import lombok.Setter;
-
-@Getter
-@Setter
 
 public class Student {
 
@@ -19,5 +14,9 @@ public class Student {
         this.name = name;
         this.age = age;
         this.averageScore = averageScore;
+    }
+
+    public String getName() {
+        return name;
     }
 }
